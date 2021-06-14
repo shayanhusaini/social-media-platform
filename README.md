@@ -15,5 +15,6 @@ Steps to run this project:
 1. The password's are stored in plain text as the bcrypt library is currently not supported in Mac M1. For more details visit this link:
 https://github.com/kelektiv/node.bcrypt.js/issues/868
 2. Although the passwords are stored in plain text but approach to match the user credentials is taken in a similar way as they are stored in encrypted format.
+3. The .env file is not supposed to commit on git repository but in order to make it work just by cloning I am committing this file
 
 
